@@ -1,1 +1,0 @@
-It's test file for git.
