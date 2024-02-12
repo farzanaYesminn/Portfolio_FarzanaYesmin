@@ -3,7 +3,7 @@ import api from "../assets/portfolio/api.jpg";
 import apod from "../assets/portfolio/apod.jpg";
 import iptracker from "../assets/portfolio/iptracker.jpg";
 import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
+import FruitBrust from "../assets/portfolio/1.jpg";
 import waveportal from "../assets/portfolio/waveportal.jpg";
 
 const Portfolio = () => {
@@ -16,9 +16,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      src: FruitBrust,
+      link: 'https://farzanayesminn.github.io/FruitBrust_HTML-TailwindCSS_Responsive/',
+      repo: 'https://github.com/farzanaYesminn/FruitBrust_HTML-TailwindCSS_Responsive'
     },
     {
       id: 3,
