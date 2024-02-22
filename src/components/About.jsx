@@ -14,15 +14,15 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-5">
-        I am a Jr Software Engineer, working web frontend development. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology and currently working at Redgreen Technology.
+            I am a Junior Software Engineer at Redgreen Technology, specializing in web frontend development. Committed to continuous learning, I eagerly embrace new technologies to enhance my skills. I thrive on crafting solutions from scratch, transforming ideas into reality. Open to working with diverse web technologies, I bring a dynamic approach to projects.
         </p>
 
         <br />
 
-        <p className="text-xl">
-        I like to code matters from scratch and love the idea of bringing thoughts to life. Connect with me to get your project done. <br /> <br />
-        I value minimalistic designs, thoughtful branding of the content, and customer relatable experience. Let’s discover together how we can make your project convert better!<br /> <br />
-        I enjoy creating or redesigning a distinct identity for a product or service, get more traffic from search engine and social platforms.
+        <p className="text-xl pb-10">
+        As a professional dedicated to excellence, I invite you to connect for your project needs. I prioritize minimalistic designs, thoughtful content branding, and a customer-centric experience to elevate your project. Let's collaborate to unlock its full potential. <br /> <br />
+    
+        I excel in creating distinct identities for products/services, optimizing visibility on search engines and social platforms. Join me in the journey of enhancing your project's impact and conversion rates.
         </p>
       </div>
     </div>
