@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
+import HeroImageSM from "../assets/heroImageSM.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -9,13 +10,18 @@ const Home = () => {
     name ="home"
     className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
-      <div className="max-w-screen-lg mx-auto sm:grid sm:grid-cols-2 items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col-reverse sm:grid sm:grid-cols-2 items-center justify-center h-full px-4 md:flex-row">
       <div className="small-screen hidden">
-          <img
+          {/* <img
             src={HeroImage}
             alt="profile"
-            className="rounded-2xl mx-auto w-3/3 md:w-full"
+            className="hidden md:block rounded-2xl mx-auto w-3/3 md:w-full "
           />
+          <img
+            src={HeroImageSM}
+            alt="profile"
+            className="block md:hidden pt-10"
+          /> */}
         </div>
         <div className=" flex flex-col justify-center h-full lg:pt-12">
           <h2 className="text-xl pt-4 lg:pt-0 md:text-5xl font-bold text-white">
@@ -51,6 +57,11 @@ const Home = () => {
             className=" mx-auto w-full md:w-full"
           />
         </div>
+        <img
+            src={HeroImageSM}
+            alt="profile"
+            className="block md:hidden pt-10"
+          />
         
       </div>
     </div>

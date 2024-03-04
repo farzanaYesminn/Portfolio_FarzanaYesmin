@@ -21,9 +21,7 @@ body {
   background: rgb(31, 41, 55);
 }
 
-.nav {
-  z-index: 10;
-}
+
 
 .link-underline {
   border-bottom-width: 0;
@@ -52,9 +50,7 @@ body {
   margin-top: 8%;
 }
 
-.experience {
-  margin-top: 12%;
-}
+
 
 
 .nav-links {
@@ -72,17 +68,14 @@ body {
   .about,
   .contact,
   .portfolio,
-  .experience,
   .home {
-    text-align: center;
+
     height: 100%;
   }
 
   .about,
   .portfolio,
-  .experience {
-    margin-top: 10%;
-  }
+
 
   .home img {
     margin-top: 25%;
@@ -96,12 +89,10 @@ body {
     display: none;
   }
 
-  .gap-8 {
-    gap: 4rem;
-  }
+
 
   .home h2 {
-    font-size: 2.7rem;
+
     line-height: 3rem;
     margin-top: 7%;
   }
