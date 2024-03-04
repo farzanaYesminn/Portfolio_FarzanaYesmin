@@ -5,7 +5,9 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800 "
+    <div 
+    name ="home"
+    className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
       <div className="max-w-screen-lg mx-auto sm:grid sm:grid-cols-2 items-center justify-center h-full px-4 md:flex-row">
       <div className="small-screen hidden">
