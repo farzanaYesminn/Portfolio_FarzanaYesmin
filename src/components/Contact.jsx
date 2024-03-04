@@ -18,10 +18,11 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          
         </div>
-        
+
         <div className=" flex justify-center items-center">
+        
           <form
             onSubmit={handleSubmit}
             name="contact"
@@ -29,6 +30,7 @@ const Contact = () => {
             action="https://getform.io/f/0679c0a1-5701-4c0c-988a-af6545f5098d"
             className=" flex flex-col w-full md:w-1/2"
           >
+            <p className="py-6">Please submit the form below to get in touch with me</p>
             <input
               type="text"
               name="name"
@@ -56,6 +58,8 @@ const Contact = () => {
             </button>
           </form>
         </div>
+       
+        
       </div>
     </div>
   );

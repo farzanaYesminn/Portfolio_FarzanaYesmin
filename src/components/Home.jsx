@@ -5,9 +5,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
+    <div className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div className="max-w-screen-lg mx-auto sm:grid sm:grid-cols-2 items-center justify-center h-full px-4 md:flex-row">
       <div className="small-screen hidden">
@@ -17,14 +15,17 @@ const Home = () => {
             className="rounded-2xl mx-auto w-3/3 md:w-full"
           />
         </div>
-        <div className=" flex flex-col justify-center h-full">
-          <h2 className="text- md:text-5xl font-bold text-white">
+        <div className=" flex flex-col justify-center h-full lg:pt-12">
+          <h2 className="text-xl pt-4 lg:pt-0 md:text-5xl font-bold text-white">
             I'm a Front-End Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 pt-4 max-w-md">
             I have 1 year of experience building websites and desgining software.
             I love to work on web application using technologies like
             HTML, CSS, React, Tailwind.
+          </p>
+          <p className="text-gray-500 py-2 max-w-md">
+          Graduated from Daffodil International University's Computer Science and Engineering department , with an enriching international experience through a semester exchange program at Universiti Kebangsaan Malaysia.
           </p>
 
           <div className="portfolio-btn">
